@@ -8,9 +8,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <br/>
       <div className='container'>
         <img src={kate} alt='kate' />
-        <hr />
+    
         <section>
           <h3>
             Katherine Johnson
@@ -31,12 +32,10 @@ function App() {
           <p>Elizabeth II was Queen of the United Kingdom and other Commonwealth realms from 6 February 1952 until her death in 2022. She was queen regnant of 32 sovereign states over the course of her lifetime and remained the monarch of 15 realms by the time of her death.
        </p>
         </section>
-        <hr />
         <img src={queen} alt='queen elizabeth' />
       </div>
       <div className='container'>
         <img src={nkrumah} alt='nkrumah' />
-        <hr />
         <section>
           <h3>
             Kwame Nkrumah
