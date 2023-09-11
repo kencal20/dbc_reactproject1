@@ -37,7 +37,7 @@ function App() {
             The space agency noted her "historical role as one of the first African-American women to work as a NASA scientist"</p>
         </section>
       </div>
-      <br />
+  
       <div className='container'>
         <section>
           <h3>
@@ -49,7 +49,6 @@ function App() {
         </section>
         <img src={queen} alt='queen elizabeth' />
       </div>
-      <br />
       <div className='container'>
         <img src={nkrumah} alt='nkrumah' />
         <section>
