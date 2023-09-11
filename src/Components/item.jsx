@@ -6,7 +6,7 @@ export default function Item({ todo, status }) {
       <div className="container">
         <p>
           {" "}
-          {todo} <span> : completed</span>{" "}
+          {todo} <span> :✔</span>{" "}
         </p>
       </div>
     );
@@ -16,7 +16,7 @@ export default function Item({ todo, status }) {
       <div className="container">
         <p>
           {todo}
-          <span> : pending</span>
+          <span> :⏳</span>
         </p>
       </div>
     );
