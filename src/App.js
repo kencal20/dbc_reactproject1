@@ -1,38 +1,9 @@
-
 import nkrumah from './DrNkrumah.jpg'
 import queen from './queenElizabeth.jpg'
 import './styles.css'
 import './App.css';
-
-function Profile1(props) {
-  return (
-    <div className='container'>
-      <img src={props.image} alt={props.alt} />
-      <section>
-        <h3> {props.name} </h3>
-        <hr width='400px' />
-        <p>{props.description}</p>
-        <button><a href={props.link}></a>Wiki page</button>
-      </section>
-
-    </div>
-
-  )
-}
-function Profile2(props) {
-  return (
-    <div className='container'>
-      <section>
-        <h3> {props.name} </h3>
-        <hr width='400px' />
-        <p>{props.description}</p>
-        <button><a href={props.link}></a>Wiki page</button>
-      </section>
-      <img src={props.image} alt={props.alt} />
-    </div>
-
-  )
-}
+import Profile1 from "./App.profile"
+import { Profile2 } from './App.profile';
 
 
 function App() {
