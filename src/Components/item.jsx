@@ -11,14 +11,14 @@ export default function Item({ todo, status }) {
       </div>
     );
   } 
-  // else {
-  //   return (
-  //     <div className="container">
-  //       <p>
-  //         {todo}
-  //         <span> : pending</span>
-  //       </p>
-  //     </div>
-  //   );
-  // }
+  else {
+    return (
+      <div className="container">
+        <p>
+          {todo}
+          <span> : pending</span>
+        </p>
+      </div>
+    );
+  }
 }
