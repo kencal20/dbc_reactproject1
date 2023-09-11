@@ -2,8 +2,8 @@ import nkrumah from './DrNkrumah.jpg'
 import queen from './queenElizabeth.jpg'
 import './styles.css'
 import './App.css';
-import Profile1 from "./App.profile"
-import { Profile2 } from './App.profile';
+import Profile1 from "./Components/App.profile"
+import { Profile2 } from './Components/App.profile';
 
 
 function App() {
