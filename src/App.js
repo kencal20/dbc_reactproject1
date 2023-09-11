@@ -28,7 +28,7 @@ function App() {
         description=" 
       Elizabeth II was Queen of the United Kingdom and other Commonwealth realms from 6 February 1952 until her death in 2022.
        She was queen regnant of 32 sovereign states over the course of her lifetime and remained the monarch of 15 realms by the time of her death."
-
+        link='kalsdj'
       />
 
 
@@ -38,7 +38,8 @@ function App() {
         name="Kwame Nkrumah"
         description="Francis Kwame Nkrumah was a Ghanaian politician, political theorist, and revolutionary.
          He was the first Prime Minister and President of Ghana, having led the Gold Coast to independence from Britain in 1957."
-      />
+      link='asdjalskd'
+  />
 </div>
 
   );
