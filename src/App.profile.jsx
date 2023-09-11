@@ -9,8 +9,7 @@ export default function Profile1(props) {
         <hr width='400px' />
         <p>{props.description}</p>
         <button>
-          <a href={props.link}></a>
-          Wiki Page
+          <a href={props.link}>Wiki page</a>
         </button>
       </section>
     </div>
@@ -25,8 +24,7 @@ export function Profile2(props) {
         <hr width='400px' />
         <p>{props.description}</p>
         <button>
-          <a href={props.link}></a>
-          Wiki page
+          <a href={props.link}>Wiki page</a>
         </button>
       </section>
       <img src={props.image} alt={props.alt} />
