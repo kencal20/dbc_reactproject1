@@ -35,8 +35,9 @@ function App() {
     }
   ]
 
-  let elements = todos.map((todoItem) => {
-    return <Item todo={todoItem.todo} />
+  let element = todos.map((todoItem) => {
+    return <Item todo={todoItem.todo}
+    status={todoItem.status} />
   }
   )
 
@@ -58,6 +59,9 @@ function App() {
         todo="Going on dinner Date"
         status={false}
       />
+      {
+        element
+      }
     </div>
 
 
