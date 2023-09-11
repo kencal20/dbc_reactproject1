@@ -13,7 +13,7 @@ function App() {
       <Profile1
         image="kate.jpg"
         alt="a pic of kate"
-        name="carl jung"
+        name="Kate"
         description=" 
             Creola Katherine Johnson (née Coleman; August 26, 1918 – February 24, 2020) was an American mathematician whose calculations of orbital mechanics as a NASA employee were critical to the success of the first and subsequent U.S. crewed spaceflights.
               During her 33-year career at NASA and its predecessor, she earned a reputation for mastering complex manual calculations and helped pioneer the use of computers to perform the tasks.
