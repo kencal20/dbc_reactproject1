@@ -1,20 +1,19 @@
 import React from "react";
-
-function Gallery() {
+import GalleryData from "../GalleryData";
+function Gallery({index, onNextClicked}) {
   return (
     <div>
-      <button>Next</button>
+      <button onClick={onNextClicked}>Next</button>
       <h2>
         {" "}
-        <i>()</i> by {}
+        <i>{GalleryData[index].name}</i> by {GalleryData[index].artist}
       </h2>
-      <h3>()</h3>
-      <img src={} 
-        alt={}
-       />
-       <p>
-        {}
-       </p>
+      <h3>
+        ({index} of {GalleryData.length} )
+      </h3>
+      <img src={GalleryData[index].url} 
+      alt={GalleryData[index].alt} />
+      <p>{}</p>
     </div>
   );
 }
