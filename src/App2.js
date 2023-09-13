@@ -1,21 +1,33 @@
-import React from 'react'
-import Button from './Components/button'
+import React, { useState } from 'react';
+import Button from './Components/button';
 
 export default function App2() {
-function handleClick(){
-  
-}
+    const [X, setX] = useState(true);
+
+    function handleClick() {
+        setX((prevX) => !prevX);
+    }
+
+    let emoji;
+    if (X === true) {
+        emoji = "👍";
+    } else {
+        emoji = "👎";
+    }
+
     return (
         <div>
-            <div className='container' handleClick={() => { return (alert("ypu just clicked white ")) }}>
-                <Button handleClick={() => { return (alert("Uploading ")) }}>
-                    UPlOAD MOVIE
+            <div className='container'>
+                <Button handleClick={() => alert("You just clicked 'Upload'")}>
+                    UPLOAD MOVIE
                 </Button>
-                <br/>
-                <Button handleClick={() => { return handleClick(alert('helllllll')) }}>
-                 PLAY MOVIE
+                <br />
+                <Button handleClick={handleClick}>
+                    Change emoji
                 </Button>
+                <p>{emoji}</p>
             </div>
+
         </div>
     )
 }
