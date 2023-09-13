@@ -1,9 +1,17 @@
 import React from "react";
 import GalleryData from "../GalleryData";
-function Gallery({index, onNextClicked}) {
+import "../styles.css";
+
+export default function Gallery({ index, onNextClicked, onPrevClicked }) {
   return (
     <div>
-      <button onClick={onNextClicked}>Next</button>
+      <button className="imageButton" onClick={onPrevClicked}>
+        Previous
+      </button>
+      <button className="imageButton" onClick={onNextClicked}>
+        Next
+      </button>
+
       <h2>
         {" "}
         <i>{GalleryData[index].name}</i> by {GalleryData[index].artist}
@@ -11,11 +19,8 @@ function Gallery({index, onNextClicked}) {
       <h3>
         ({index} of {GalleryData.length} )
       </h3>
-      <img src={GalleryData[index].url} 
-      alt={GalleryData[index].alt} />
+      <img src={GalleryData[index].url} alt={GalleryData[index].alt} />
       <p>{}</p>
     </div>
   );
 }
-
-export default Gallery;
