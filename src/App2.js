@@ -7,8 +7,9 @@ let App2 = () => {
                 <Button handleClick={() => { return (alert("Uploading ")) }}>
                     UPlOAD MOVIE
                 </Button>
-                <Button handleClick={() => { return (alert("Uploading ")) }}>
-                    UPlOAD MOVIE
+                <br/>
+                <Button handleClick={() => { return (alert("Playing  ")) }}>
+                 PLAY MOVIE
                 </Button>
             </div>
         </div>
