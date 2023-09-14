@@ -5,7 +5,9 @@ export default function App4() {
     const [item, setItem] = useState(['item1', 'item2'])
     function addItemOnUpdate() {
         setItem((prevItem) => { return [...prevItem, `item${prevItem.length + 1}`] })
-        console.log(item);
+       
+        let elementItem = item.map((item) => { return <p key={item.length + 1}></p> })
+
     }
 
     return (
