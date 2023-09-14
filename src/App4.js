@@ -4,7 +4,7 @@ export default function App4() {
 
     const [item, setItem] = useState(['item1', 'item2'])
     function addItemOnUpdate() {
-        setItem(  (prevItem) => { item.push(`item${item.length + 1}`) })
+        setItem((prevItem) => { return [...prevItem, `item${prevItem.length + 1}`] })
         console.log(item);
     }
 
