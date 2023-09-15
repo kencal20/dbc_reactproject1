@@ -3,7 +3,7 @@
     /* background-color: blueviolet; */
     margin: 20px;
 }
-button{
+#like_button{
     background:none;
     border-width: 0px;
     font-size: larger;
