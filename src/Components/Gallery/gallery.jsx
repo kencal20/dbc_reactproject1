@@ -1,5 +1,5 @@
 import React from "react";
-import GalleryData from "../GalleryData";
+import GalleryData from "./GalleryData";
 import "../styles.css";
 
 export default function Gallery({ index, onNextClicked, onPrevClicked }) {

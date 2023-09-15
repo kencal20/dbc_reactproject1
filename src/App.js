@@ -1,7 +1,7 @@
 import './App.css';
 
 // import Profile from './Components/Profile';
-import Item from './Components/item';
+import Item from './Components/List/item';
 
 
 

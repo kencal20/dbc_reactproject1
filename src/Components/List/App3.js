@@ -1,5 +1,5 @@
 import { React, useState } from 'react'
-import Gallery from './Components/gallery'
+import Gallery from '../button/button'
 
 export default function App3() {
   const [index, setIndex] = useState(0)

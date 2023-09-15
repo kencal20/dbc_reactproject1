@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Button from './Components/button';
+import Button from './button';
 
 export default function App2() {
     const [X, setX] = useState(true);
