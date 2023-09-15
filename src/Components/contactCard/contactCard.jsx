@@ -1,6 +1,6 @@
 import { React, useState } from "react";
-import logo from "../logo.png";
-import "../style.css";
+import logo from "../../logo.png"
+import "./style.css"
 export default function Contactcard() {
   const [card, setCard] = useState({
     firstName: "2pac",
@@ -28,7 +28,7 @@ export default function Contactcard() {
       <p>lastName : {card.lastName}</p>
       <p>phone : {card.phone}</p>
       <p>email : {card.email}</p>
-      <button onClick={islikedClicked}>{emoji}</button>
+      <button id="like_button" onClick={islikedClicked}>{emoji}</button>
     </div>
   );
 }
