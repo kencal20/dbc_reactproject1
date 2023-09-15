@@ -1,0 +1,14 @@
+.App5{
+    text-align: center;
+    /* background-color: blueviolet; */
+    margin: 20px;
+}
+button{
+    background:none;
+    border-width: 0px;
+    font-size: larger;
+    
+}
+img{
+    width:90px;
+}
